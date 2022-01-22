@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/mdhl.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <header class="form-header">
+        <img src="./img/LogoMightyducks-01.png" alt="Logo Mighty Ducks" class="logo">
+        <a href="index.html">
+            <h1>Mighty Ducks Hockey League</h1>
+        </a>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="game.html">Information</a>
+        <a href="rules.html">Rules</a>
+        <a href="about.html">About MDHL</a>
+        <a href="#">Register</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main class="form-main">
+        <h2>Registration Form</h2>
+        <section class="form-section">
+            <form action="show_data.html" method="get">
+                <fieldset>
+                    <table class="form-table">
+                        <tr>
+                            <td><label for="name">Player´s First Name:</label> <input type="text" id="name" name="name">
+                            </td>
+                            <td><label for="lname">Last Name:</label> <input type="text" id="lname" name="lname"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><label for="address">Street Address:</label> <input type="text" id="address"
+                                    name="address">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="city">City:</label> <input type="text" id="city" name="city"></td>
+                            <td><label for="zipcode">Zip Code:</label> <input type="number" id="zipcode" name="zipcode">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="birth">Birth Date:</label> <input type="date" id="birth" name="birth"
+                                    min="1950-01-01" max="2021-12-31"> </td>
+                            <td class="form-radio"> <span>Gender: </span>
+                                <label for="female">Female</label><input type="radio" id="female" name="gender"
+                                    value="Female">
+                                <label for="male">Male</label><input type="radio" id="male" name="gender" value="Male">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="form-radio"> <span>Grade: </span>
+                                <label for="pre-school">Pre-School</label><input type="radio" id="pre-school"
+                                    name="grade" value="Pre-School">
+                                <label for="1st">1<sup>st</sup></label><input type="radio" id="1st" name="grade"
+                                    value="1st">
+                                <label for="2nd">2<sup>nd</sup> </label><input type="radio" id="2nd" name="grade"
+                                    value="2nd">
+                                <label for="3rd">3<sup>rd</sup></label><input type="radio" id="3rd" name="grade"
+                                    value="3rd">
+                                <label for="4th">4<sup>th</sup></label><input type="radio" id="4th" name="grade"
+                                    value="4th">
+                                <label for="5th">5<sup>th</sup></label><input type="radio" id="5th" name="grade"
+                                    value="5th">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <h4>Which elementary school do you live near?</h4>
+                <fieldset>
+                    <table class="form-table">
+                        <tr>
+                            <td colspan="2"> <span>Closest School:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="fila-1"><label for="school1">AZ Katzenmaier</label><input type="radio"
+                                    id="school1" name="school" value="AZ Katzenmaier"></td>
+                            <td class="fila-1"><label for="school2">Marjorie P Hart</label><input type="radio"
+                                    id="school2" name="school" value="Marjorie P Hart"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="school3">Greenbay</label><input type="radio" id="school3" name="school"
+                                    value="Greenbay"></td>
+                            <td><label for="school4">North Elementary</label><input type="radio" id="school4"
+                                    name="school" value="North Elementary"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="school5">Howard A Yeager</label><input type="radio" id="school5"
+                                    name="school" value="Howard A Yeager"></td>
+                            <td><label for="school6">South Elementary</label><input type="radio" id="school6"
+                                    name="school" value="South Elementary"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <h4>What position(s) do you normally play? (check all that apply)</h4>
+                <fieldset>
+                    <table class="form-table">
+                        <tr>
+                            <td><label for="position1">Forward</label><input type="checkbox" id="position1"
+                                    name="position" value="Forward"></td>
+                            <td><label for="position2">Midfield</label><input type="checkbox" id="position2"
+                                    name="position" value="Midfield"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="position3">Defense</label><input type="checkbox" id="position3"
+                                    name="position" value="Defense"></td>
+                            <td><label for="position4">Goalkeeper</label><input type="checkbox" id="position4"
+                                    name="position" value="Goalkeeper"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <h4>Uniform Size: </h4>
+                <fieldset>
+                    <table class="form-table">
+                        <tr>
+                            <td><label for="size1">Youth Small</label><input type="radio" id="size1" name="size"
+                                    value="Youth Small"></td>
+                            <td><label for="size2">Youth Medium</label><input type="radio" id="size2" name="size"
+                                    value="Youth Medium"></td>
+                            <td><label for="size3">Youth Large</label><input type="radio" id="size3" name="size"
+                                    value="Youth Large"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="size4">Small</label><input type="radio" id="size4" name="size"
+                                    value="Small">
+                            </td>
+                            <td><label for="size5">Medium</label><input type="radio" id="size5" name="size"
+                                    value="Medium">
+                            </td>
+                            <td><label for="size6">Large</label><input type="radio" id="size6" name="size"
+                                    value="Large">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="size7">Extra-Large</label><input type="radio" id="size7" name="size"
+                                    value="Extra-Large"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <h4>Permission to Play</h4>
+                <p class="form-p">I, the parent or guardian of the minor registrant, agree that the registrant and I
+                    will
+                    abide by all the
+                    rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                    associated with hockey and in consideration for the “League" accepting the registrant for its hockey
+                    programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
+                    employees
+                    and associated personnel and voIunteers,incIuding the facilities used for practices and games,
+                    against
+                    any claim by or on behalf of the registrant as a result of the registrant's participation in the
+                    programand/orbeing transported to or from MDHL sponsored activities,which transportation
+                    By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso
+                    acknowledge that I have read the cancellation policy and agree to its terms.
+                </p>
+                <fieldset>
+                    <table class="form-table">
+                        <tr>
+                            <td> <label for="parent">Parent/GuardianSignature:</label><input type="text" id="parent"
+                                    name="Parent">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="date">
+                                    Date:</label> <input type="date" id="date" name="date" min="2000-01-01"
+                                    max="2100-12-31">
+                                <input id="save" type="submit" value="Save">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

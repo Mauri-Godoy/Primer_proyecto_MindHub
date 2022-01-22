@@ -1,0 +1,286 @@
+body {
+    font-family     : 'Helvetica', 'Arial', sans-serif;
+    background-color: #FAFAFA;
+    color           : #000000cb;
+}
+
+/* header----------------------------------------------------------------*/
+.logo {
+    position       : fixed;
+    width          : 5rem;
+    height         : 3rem;
+    opacity        : 100%;
+    z-index        : 30;
+    top            : -0.5%;
+    left           : -0.5%;
+    object-position: center 0rem;
+    object-fit     : cover;
+}
+
+h1 {
+    font-size       : 0.7rem;
+    position        : fixed;
+    text-transform  : uppercase;
+    transform       : scaleY(2);
+    font-weight     : 890;
+    z-index         : 20;
+    line-height     : 1.5rem;
+    padding-left    : 4rem;
+    padding-top     : 0.6%;
+    margin-top      : 0%;
+    color           : #5fa199;
+    text-transform  : uppercase;
+    width           : 99%;
+    background-color: #fafafa;
+    box-shadow: 0px 3px 8px 0.1px #797777bb;
+}
+
+header {
+    display       : flex;
+    width         : 100%;
+    height        : 20rem;
+    flex-direction: column;
+}
+
+header>img {
+    width          : 100%;
+    height         : 100%;
+    position       : relative;
+    z-index        : 0;
+    object-position: center -10rem;
+    object-fit     : cover;
+}
+
+.portada {
+    object-position: center -2rem;
+}
+
+h2 {
+    text-align : center;
+    line-height: 2rem;
+    font-weight: 800;
+    transform  : scaleY(1.1);
+    font-size  : 1.2rem;
+}
+
+.subtitulo {
+    color           : #FAFAFA;
+    position        : relative;
+    background-color: #0000006b;
+    bottom          : 2.1rem;
+}
+
+/* nav--------------------------------------------------------------*/
+
+nav {
+    display : flex;
+    position: fixed;
+    z-index : 50;
+    top     : 0.24rem;
+    right   : 0%;
+
+}
+
+nav>a {
+    font-weight : 800;
+    transform   : scaleY(1.1);
+    position    : relative;
+    font-size   : 0.9rem;
+    padding     : 0.9rem;
+    margin-right: 0rem;
+    line-height : 0.7rem;
+    margin-right: 1rem;
+    color       : #5fa199;
+}
+
+nav>a:hover {
+    color          : #000000cb;
+    text-decoration: #000000cb underline 0.3rem;
+}
+
+p>a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color          : #FAFAFA;
+}
+
+/* main--------------------------------------------------------------- */
+
+main {
+    display       : flex;
+    flex-direction: column;
+}
+
+article {
+    position    : relative;
+    text-align  : justify;
+    margin-left : 1%;
+    margin-right: 2%;
+    top         : 1rem;
+}
+
+h3 {
+    padding         : 0.3rem;
+    font-weight     : 700;
+    transform       : scaleY(1.1);
+    color           : #FAFAFA;
+    font-weight     : 780;
+    display         : inline;
+    transform       : scaleY(1.2);
+    background-color: #5fa199d7;
+    border-radius   : 0.2rem;
+    position        : relative;
+}
+
+
+/* footer----------------------------------------------------------- */
+.footer {
+    display         : flex;
+    justify-content : space-around;
+    position        : relative;
+    background-color: #5fa199d7;
+    color           : #FAFAFA;
+    margin          : 0;
+    padding         : 3rem;
+}
+
+/* table------------------------------------------------------------ */
+
+.game-table {
+    margin: 2rem auto;
+}
+
+caption,
+th {
+    padding       : 0.3rem 1rem 0.3rem 1rem;
+    font-weight   : 700;
+    letter-spacing: 0.1rem;
+    transform     : scaleY(1.1);
+    font-weight   : 780;
+    transform     : scaleY(1.2);
+}
+
+.game-tbody>tr>td {
+    padding     : 0.4rem;
+    border      : solid;
+    border-width: 0.15rem;
+    text-align  : center;
+    border-color: #5fa199;
+}
+
+th {
+    color           : #FAFAFA;
+    background-color: #5fa199;
+    border-radius   : 0.2rem 0.2rem 0 0;
+}
+
+/* lista---------------------------------------------------------- */
+.mayuscula {
+    text-transform: uppercase;
+}
+
+h4 {
+    text-align   : center;
+    margin-bottom: 0;
+}
+
+.list {
+    list-style-type: lower-latin;
+}
+
+dd,
+dt,
+dl,
+dd>ol {
+    list-style-position: inside;
+    margin             : 0%;
+    padding            : 0%;
+}
+
+.rules-final {
+    margin-bottom: 3rem;
+}
+
+/* formulario--------------------------------------------------------- */
+.form-header {
+    height: 3rem;
+}
+
+.form-main {
+    width     : 80%;
+    border    : solid #000000 0.15rem;
+    margin: 2rem auto;
+}
+
+h2 {
+    background-color: #5fa199d7;
+    color           : #FAFAFA;
+    margin          : 0;
+}
+
+.form-section {
+    margin-top  : 0.1rem;
+    margin-right: 0;
+}
+
+form {
+    padding: 1rem;
+}
+
+input {
+    width        : 60%;
+    margin-bottom: 1rem;
+    float: right;
+    margin-right: 1rem;
+    
+}
+
+#address{
+    width: 80%;
+}
+
+.form-radio>input {
+    width: 2rem;
+    float: none;
+}
+
+.form-radio>label{
+    padding-left: 3rem;
+}
+
+.form-table {
+    padding     : 0.3rem;
+    width       : 100%;
+    margin-right: 1%;
+}
+
+#save {
+    width: 100%;
+    margin:auto;
+}
+
+.form-p {
+    text-align: justify;
+}
+
+.fila-1 {
+ padding-top: 1rem;
+}
+
+form>h4{
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+/* location--------------------------------------------------------------- */
+
+iframe {
+    border-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 150px;
+}
